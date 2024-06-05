@@ -1,8 +1,14 @@
 import React from "react";
-import { Card } from '../components/Card/Card';
+import { Header } from "./Header/Header";
+import { Counter } from "./Counter/Counter";
 
 export const App = () => {
-  return <Card isOnLine/>
+  return (
+    <div className="container">
+      <Header />
+      <Counter/>
+    </div>
+  )
 }
 
 
